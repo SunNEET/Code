@@ -88,6 +88,5 @@ int main()
         //     printf("%d ",DFSspt[i]);
         // puts("");
     }
-    
     return 0;
 }
