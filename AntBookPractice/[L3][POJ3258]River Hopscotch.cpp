@@ -3,6 +3,10 @@
 using namespace std;
 typedef long long ll;
 ll Rock[50005];
+
+//題意：有N+2(起點,終點)個石頭,最多可以移掉中間M顆,求最大可能值的最短路徑
+//基本思路：二分搜找最短距離,若超過x則移除石頭,需要移掉的石頭數量不大於M則表示可行。
+
 bool solve(const ll& N,const ll& M,ll x)
 {
     ll cnt = M;
