@@ -6,6 +6,7 @@
 #include <algorithm>
 using namespace std;
 
+
 #define MAX_N 11
 #define MAX_M 21
 int n,m,si,sj;
